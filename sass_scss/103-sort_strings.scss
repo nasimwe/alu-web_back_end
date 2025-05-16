@@ -1,0 +1,16 @@
+@use "sass:list";
+@use "sass:meta";
+
+// Define the list to sort
+$list_to_sort: john anna zoe kim felicia carrie;
+
+// Function to sort the list
+@function sort-list($list) {
+  @return list.sort($list);
+}
+
+// Sort the list and store the result
+$sorted_list: sort-list($list_to_sort);
+
+// Print the sorted list using @debug
+@debug "Sorted list: #{$sorted_list}";
