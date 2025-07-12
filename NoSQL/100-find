@@ -1,2 +1,0 @@
-// 100-find
-db.school.find({ name: /^Holberton/ }).forEach(printjson);

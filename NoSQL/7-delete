@@ -1,2 +1,0 @@
-// delete item
-db.school.deleteMany({ name: "Holberton school"})

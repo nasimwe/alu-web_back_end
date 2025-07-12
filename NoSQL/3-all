@@ -1,2 +1,0 @@
-// show all schools
-db.school.find()
